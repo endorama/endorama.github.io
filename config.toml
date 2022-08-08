@@ -1,7 +1,7 @@
 # baseURL = 'https://endorama.dev/'
 baseURL = 'https://endorama.github.io/'
 languageCode = 'en-gb'
-title = '👋 💻🍕🌐'
+title = 'Edoardo Tenani'
 theme = 'gokarna'
 
 enableEmoji = true
@@ -11,9 +11,10 @@ Copyright = "© Edoardo Tenani 2022 - Some Rights Reserved"
 canonifyurls = true
 
 [params]
-  metaKeywords = ["blog", "gokarna", "hugo"]
+  ShowSiteTitle = true
+  metaKeywords = ["blog", "software", "engineer", "craft", "craftman", "developer"]
   footer = "Edoardo Tenani"
-  description = "Edoardo, software craftsman"
+  description = "Software craftsman"
   
   accentColor = "#3689E6"
   
@@ -23,6 +24,8 @@ canonifyurls = true
       {name = "linkedin", url = "https://www.linkedin.com/in/edoardotenani/"},
     #   {name = "stackoverflow", url = "https://example.com"},
     ]
+
+  css = ["css/override.css"]
 
 [menu]
   [[menu.main]]
