@@ -5,4 +5,4 @@ draft: false
 type: post
 ---
 
-All stories should be start from somewhere! This is it. 
+All stories should start from somewhere! This is where the story for my website starts. 
