@@ -1,3 +1,67 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://endorama.dev/'
+languageCode = 'en-gb'
+title = '👋 💻🍕🌐'
+theme = 'gokarna'
+
+enableEmoji = true
+enableRobotsTXT = true
+paginate = 2
+Copyright = "© Edoardo Tenani 2022 - Some Rights Reserved"
+canonifyurls = true
+
+[params]
+  metaKeywords = ["blog", "gokarna", "hugo"]
+  footer = "Edoardo Tenani"
+  description = "Edoardo, software craftsman"
+  
+  accentColor = "#3689E6"
+  
+  socialIcons = [
+      {name = "github", url = "https://github.com/endorama"},
+      {name = "twitter", url = "https://twitter.com/edoardotenani"},
+      {name = "linkedin", url = "https://www.linkedin.com/in/edoardotenani/"},
+    #   {name = "stackoverflow", url = "https://example.com"},
+    ]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Posts"
+    pre = "<span data-feather='book'></span>"
+    url = "/posts/"
+    weight = 22
+
+  [[menu.main]]
+    name = "Tags"
+    pre = "<span data-feather='tag'></span>"
+    url = "/tags/"
+    weight = 30
+
+  [[menu.main]]
+    name = "About"
+    pre = "<span data-feather='user'></span>"
+    url = "/about/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "github"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/endorama"
+    weight = 50
+
+#   [[menu.main]]
+#     identifier = "buymeacoffee"
+#     pre = "<span data-feather='coffee'></span>"
+#     url = "https://www.buymeacoffee.com/avijitgupta"
+#     weight = 6
+
+  [[menu.main]]
+    identifier = "rss"
+    pre = "<span data-feather='rss'></span>"
+    url = "/index.xml"
+    weight = 70
