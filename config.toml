@@ -1,4 +1,5 @@
-baseURL = 'https://endorama.dev/'
+# baseURL = 'https://endorama.dev/'
+baseURL = 'https://endorama.github.io/'
 languageCode = 'en-gb'
 title = '👋 💻🍕🌐'
 theme = 'gokarna'
