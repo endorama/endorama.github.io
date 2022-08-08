@@ -1,0 +1,8 @@
+.kind-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    position: absolute;
+    width: 100% !important;
+}
