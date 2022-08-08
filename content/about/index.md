@@ -8,4 +8,4 @@ draft: true
 
 I'm a software engineer based in Italy.
 
-I'm currently working at Elastic, the search company.
+I'm currently working at [Elastic](https://www.elastic.co/), the search company, as a software engineer in the Integrations team for Elastic Observability.
