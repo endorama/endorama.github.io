@@ -1,5 +1,5 @@
-# baseURL = 'https://endorama.dev/'
-baseURL = 'https://endorama.github.io/'
+baseURL = 'https://endorama.dev/'
+# baseURL = 'https://endorama.github.io/'
 languageCode = 'en-gb'
 title = 'Edoardo Tenani'
 theme = 'gokarna'
