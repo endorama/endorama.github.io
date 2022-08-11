@@ -6,3 +6,7 @@
     position: absolute;
     width: 100% !important;
 }
+
+.nav-brand {
+    display: none;
+}
