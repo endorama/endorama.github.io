@@ -27,6 +27,10 @@ canonifyurls = true
 
   customHeadHTML = '''
     <link id="custom" rel="stylesheet" href="/css/override.css" />
+
+    <!-- Pixel Code for https://app.tinyanalytics.io/ -->
+    <script defer src="https://app.tinyanalytics.io/pixel/6Dm2gJFKAW2eahvV"></script>
+    <!-- END Pixel Code -->
   '''
 
 [menu]
