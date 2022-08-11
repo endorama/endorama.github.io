@@ -10,6 +10,10 @@ paginate = 2
 Copyright = "© Edoardo Tenani 2022 - Some Rights Reserved"
 canonifyurls = true
 
+
+[permalinks]
+  posts = '/:year/:slug'
+
 [params]
   ShowSiteTitle = true
   metaKeywords = ["blog", "software", "engineer", "craft", "craftman", "developer"]
