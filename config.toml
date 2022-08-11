@@ -25,7 +25,9 @@ canonifyurls = true
     #   {name = "stackoverflow", url = "https://example.com"},
     ]
 
-  css = ["css/override.css"]
+  customHeadHTML = '''
+    <link id="custom" rel="stylesheet" href="/css/override.css" />
+  '''
 
 [menu]
   [[menu.main]]
