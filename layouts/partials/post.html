@@ -1,0 +1,30 @@
+<div class="post container">
+    <div class="post-header-section">
+        <h1>{{ .Title }}</h1>
+        <small role="doc-subtitle">{{ .Description }}</small>
+        <p class="post-date">
+            {{ dateFormat "January 2, 2006" .Date }}
+        </p>
+
+        <ul class="post-tags">
+        {{ range .Params.tags }}
+            <li class="post-tag"><a href="{{ "/tags/" | absLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+        {{ end }}
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>
+            {{ .Content }}
+        </p>
+    </div>
+
+    <div class="post-footer-section">
+        👋 There are no comments here, but I'd love if you wanted to get in touch to discuss something I wrote!<br />
+        You can drop me an email to: 📭 <a href="mailto:edoardo.tenani@pm.me">edoardo.tenani (at) pm.me</a>
+    </div>
+
+    <div class="post-license-section">
+        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+    </div>
+</div>
