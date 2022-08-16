@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+}
+
 .kind-home {
     display: flex;
     flex-direction: column;
@@ -9,4 +13,16 @@
 
 .nav-brand {
     display: none;
+}
+
+.post-footer-section {
+    margin-top: 3.5em;
+    padding: 2em;
+    border-left: 2px solid var(--accent-color);
+}
+
+.post-license-section {
+    margin-top: 3.5em;
+    font-size: 0.9em;
+    text-align: center;
 }
