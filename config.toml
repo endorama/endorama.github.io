@@ -63,9 +63,9 @@ canonifyurls = true
     weight = 40
 
   [[menu.main]]
-    identifier = "github"
-    pre = "<span data-feather='github'></span>"
-    url = "https://github.com/endorama"
+    name = "Contact me"
+    pre = "<span data-feather='mail'></span>"
+    url = "/contact-me/"
     weight = 50
 
 #   [[menu.main]]
