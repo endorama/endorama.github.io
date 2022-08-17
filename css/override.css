@@ -18,11 +18,17 @@ html {
 .post-footer-section {
     margin-top: 3.5em;
     padding: 2em;
-    border-left: 2px solid var(--accent-color);
+    border-top: 2px dotted var(--accent-color);
 }
 
 .post-license-section {
     margin-top: 3.5em;
     font-size: 0.9em;
     text-align: center;
+}
+
+p.tip {
+    border-left: 2px solid var(--accent-color);
+    background-color: rgba(39, 40, 34, 0.05);
+    padding: 1em 1em 1em 1.5em;
 }
