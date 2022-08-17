@@ -10,6 +10,21 @@ paginate = 2
 Copyright = "© Edoardo Tenani 2022 - Some Rights Reserved"
 canonifyurls = true
 
+# disable all privacy risky things
+# https://gohugo.io/about/hugo-and-gdpr/
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
 
 [permalinks]
   posts = '/:year/:slug'
