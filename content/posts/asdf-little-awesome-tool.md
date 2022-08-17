@@ -1,7 +1,7 @@
 ---
 title: "asdf, little awesome tool"
 date: 2022-08-17T23:46:30+02:00
-draft: true
+draft: false
 type: post
 tags: [devops, cli, tool, team, devx]
 ---
