@@ -26,3 +26,9 @@ html {
     font-size: 0.9em;
     text-align: center;
 }
+
+p.tip {
+    border-left: 2px solid var(--accent-color);
+    background-color: rgba(39, 40, 34, 0.1);
+    padding: 1em 1em 1em 1.5em;
+}
