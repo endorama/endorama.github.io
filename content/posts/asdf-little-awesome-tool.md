@@ -31,7 +31,7 @@ It delivers more:
 - are we forgetting the CI? Hell no! Note that this only works if you are using GitHub Actions, but if that's the case there are [actions ready to be used][8]. 
 
 {{< tip >}}
-In case you don't want to use the install action provided by the asdf community because it does not leverages other optimized setup actions I developed an action that parses the `.tool-versions` file extracting the tool version that can then be reused in other actions. No `asdf` needed!  
+In case you don't want to use the install action provided by the asdf community because it does not leverages other optimized setup actions, I developed an action that parses the `.tool-versions` file extracting each tool version so they can then be reused in other actions. No `asdf` needed!  
 This action is available [here][link].
 
 [link]: https://github.com/endorama/asdf-parse-tool-versions
