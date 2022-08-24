@@ -5,6 +5,9 @@
         <p class="post-date">
             {{ dateFormat "January 2, 2006" .Date }}
         </p>
+        <p class="post-reading-time">
+            {{ partial "reading-time.html" . }}
+        </p>
 
         <ul class="post-tags">
         {{ range .Params.tags }}
