@@ -16,7 +16,7 @@ html {
 }
 
 .post-footer-section {
-    margin-top: 3.5em;
+    margin-top: 2em;
     padding: 2em;
     border-top: 2px dotted var(--accent-color);
 }
