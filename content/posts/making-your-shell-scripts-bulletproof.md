@@ -40,7 +40,7 @@ From [BASH manual][3], under `SHELL BUILTIN COMMANDS > set`.
 
 One of the most common issues is running a BASH script with an undefined variable. BASH does not complain **at all** (and that's how I nuked 6.5TB of hard drives with a missing variable - but that's for another story) and execute your script as if an empty string was your value.
 
-Why wouldn't you want to do that? Let's look at your worst (BASH) nightmare:
+Why wouldn't you want to do that? Let's look at our example script:
 
 ```
 #!/usr/bin/env bash
@@ -49,8 +49,8 @@ folder=$1
 rm -fr /home/$USER/$folder
 ```
 
-This simple script is supposed to delete user provided `$folder` in user home directory. What do you think will happen if `$1` (shell script first argument) is not provided? 😱 It will delete all your home folder! YAY. 
-This is your worst nightmare because `rm` is reasonably fast and unlinks the files, which means the OS may decide to write on the just created free space almost immediately; before you realise and hit CTRL+C (**don't do that**, read [here][2]) a huge portion will have been unlinked already. Recovering them is very painful.
+This simple script is supposed to delete user provided `$folder` in user home directory. What do you think will happen if `$1` (shell script first argument) is not provided? 😱 It will delete all your home folder. YAY. 
+This is bad because `rm` is reasonably fast and unlinks the files, which means the OS may decide to write on the just created free space almost immediately; before you realize and hit CTRL+C (**don't do that**, read [here][2]) a huge portion will have been unlinked already. Recovering them is painful.
 
 To prevent this you can use:
 ```
@@ -78,7 +78,7 @@ fi
 
 ## Exit on error
 
-> Exit immediately if a pipeline (which may consist of a single simple command), a list, or a compound command [...], exits with a non-zero  status.
+> Exit immediately if a pipeline (which may consist of a single simple command), a list, or a compound command […], exits with a non-zero  status.
 
 From [BASH manual][3], under `SHELL BUILTIN COMMANDS > set`.
 
@@ -106,7 +106,7 @@ To prevent this use:
 set -o pipefail
 ```
 
-Combining `-e` and `-o pipefail` makes impossible to have "failing" commands (not part of conditions), like in the case above, because `-o pipefail` will make the pipeline exit with a non-zero code and `-e` will immediately halt the script. To prevent this, when you want to continue even in case of error you can end the pipeline with `|| true`; this instruction will run `true`, an utility that "do nothing, successfully" and change the rightmost exit code to `0`.
+Combining `-e` and `-o pipefail` makes impossible to have "failing" commands (not part of conditions), like in the case above, because `-o pipefail` will make the pipeline exit with a non-zero code and `-e` will immediately halt the script. To prevent this, when you want to continue even in case of error you can end the pipeline with `|| true`; this instruction will run `true`, a utility that "do nothing, successfully" and change the rightmost exit code to `0`.
 
 Es:
 ```bash
