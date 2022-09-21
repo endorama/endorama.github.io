@@ -36,3 +36,7 @@ p.tip {
     background-color: rgba(39, 40, 34, 0.05);
     padding: 1em 1em 1em 1.5em;
 }
+
+.post-title.post-draft {
+    opacity: 0.5;
+}
