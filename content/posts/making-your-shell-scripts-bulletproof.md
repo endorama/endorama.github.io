@@ -1,7 +1,7 @@
 ---
 title: "Making your shell scripts bulletproof"
 date: 2022-09-19T21:13:23+02:00
-draft: true
+draft: false
 type: post
 tags: [shell, bash, robustness]
 ---
