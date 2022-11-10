@@ -45,6 +45,8 @@ canonifyurls = true
     ]
 
   customHeadHTML = '''
+    <a rel="me" href="https://mastodon.social/@endorama">Mastodon</a>
+
     <link id="custom" rel="stylesheet" href="/css/override.css" />
     <link id="custom" rel="stylesheet" href="/css/post-share.css" />
 
