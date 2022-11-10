@@ -46,3 +46,10 @@ p.tip {
     margin-top: 50px;
     letter-spacing: 0.5px;
 }
+
+blockquote {
+    padding-left: 2rem;
+}
+blockquote p {
+    filter: brightness(70%);
+}
