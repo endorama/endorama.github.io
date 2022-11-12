@@ -40,13 +40,12 @@ canonifyurls = true
   socialIcons = [
       {name = "github", url = "https://github.com/endorama"},
       {name = "twitter", url = "https://twitter.com/edoardotenani"},
+      {name = "mastodon", url = "https://mastodon.social/@endorama", rel="me"},
       {name = "linkedin", url = "https://www.linkedin.com/in/edoardotenani/"},
     #   {name = "stackoverflow", url = "https://example.com"},
     ]
 
   customHeadHTML = '''
-    <a rel="me" href="https://mastodon.social/@endorama">Mastodon</a>
-
     <link id="custom" rel="stylesheet" href="/css/override.css" />
     <link id="custom" rel="stylesheet" href="/css/post-share.css" />
 
