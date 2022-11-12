@@ -41,6 +41,7 @@ canonifyurls = true
       {name = "github", url = "https://github.com/endorama"},
       {name = "twitter", url = "https://twitter.com/edoardotenani"},
       {name = "mastodon", url = "https://mastodon.social/@endorama", rel="me"},
+      {name = "mastodon", url="https://hachyderm.io/@endorama", rel="me"},
       {name = "linkedin", url = "https://www.linkedin.com/in/edoardotenani/"},
     #   {name = "stackoverflow", url = "https://example.com"},
     ]
