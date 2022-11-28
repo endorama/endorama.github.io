@@ -83,7 +83,13 @@ canonifyurls = true
     weight = 40
 
   [[menu.main]]
-    name = "Contact me"
+    name = "Now"
+    pre = "<span data-feather='clock'></span>"
+    url = "/now/"
+    weight = 41
+
+  [[menu.main]]
+    name = "Get in touch"
     pre = "<span data-feather='mail'></span>"
     url = "/contact-me/"
     weight = 50
